@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tesla</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <script
+      src="https://kit.fontawesome.com/2c827c8cca.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+
+  <body>
+    <!-- NAV -->
+    <nav class="navbar navbar-expand-lg">
+      <div class="container-fluid">
+        <a href="#">
+          <img
+            src="https://www.logo.wine/a/logo/Tesla%2C_Inc./Tesla%2C_Inc.-Wordmark-Black-Logo.wine.svg"
+            width="220px"
+            height="80px"
+        /></a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="#">Model S</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Model 3</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Model X</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Model Y</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Solar Roof</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Solar Panels</a>
+            </li>
+          </ul>
+          <a
+            class="btn btn-secondary dropdown-toggle"
+            href="#"
+            role="button"
+            id="dropdownMenuLink"
+            data-bs-toggle="dropdown"
+            aria-expanded="true"
+          >
+            Menu
+          </a>
+
+          <ul class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+            <li><a class="dropdown-item" href="#">Inventory</a></li>
+            <li><a class="dropdown-item" href="#">Charging Stations</a></li>
+            <li><a class="dropdown-item" href="#">Find Us</a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Body -->
+    <div class="container-fluid mainbody">
+    <div
+      id="carouselExampleDark"
+      class="carousel carousel-dark slide"
+      data-bs-ride="carousel"
+    >
+      <div class="carousel-indicators">
+        <button
+          type="button"
+          data-bs-target="#carouselExampleDark"
+          data-bs-slide-to="0"
+          class="active"
+          aria-current="true"
+          aria-label="Slide 1"
+        ></button>
+        <button
+          type="button"
+          data-bs-target="#carouselExampleDark"
+          data-bs-slide-to="1"
+          aria-label="Slide 2"
+        ></button>
+        <button
+          type="button"
+          data-bs-target="#carouselExampleDark"
+          data-bs-slide-to="2"
+          aria-label="Slide 3"
+        ></button>
+      </div>
+      <div class="carousel-inner">
+        <div class="carousel-item active data-bs-interval="2000">
+          <div class="container image">
+            <img
+              src="https://tesla-cdn.thron.com/delivery/public/image/tesla/03e533bf-8b1d-463f-9813-9a597aafb280/bvlatuR/std/4096x2560/M3-Homepage-Desktop-LHD"
+              class="d-block w-100"
+              alt="..."
+            />
+          </div>
+          <div class="carousel-caption d-flex d-md-block">
+            <div class="container saying">
+              <h5>Model 3</h5>
+              <p>Online for <a href="#">Touchless Delivery</a></p>
+              <div class="container order-button d-flex justify-content-center">
+                <button type="button" class="btn btn-primary btn-sm order order-buttons">Order Now</button>
+                <button type="button" class="btn btn-secondary btn-sm order order-buttons">Details</button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="carousel-item" active d-flexdata-bs-interval="2000">
+          <div class="container image">
+            <img
+              src="https://tesla-cdn.thron.com/delivery/public/image/tesla/ddc135ed-1638-40fb-8ab1-f8045059ecef/bvlatuR/std/4096x2560/Homepage-Model-X-Desktop-LHD"
+              class="d-block w-100"
+              alt="..."
+            />
+          </div>
+          <div class="carousel-caption d-flex d-md-block">
+            <div class="container saying">
+              <h5>Model Y</h5>
+              <p>Online for <a href="#">Touchless Delivery</a></p>
+              <div class="container order-button d-flex justify-content-center">
+                <button type="button" class="btn btn-primary btn-sm order order-buttons">Order Now</button>
+                <button type="button" class="btn btn-secondary btn-sm order order-buttons">Details</button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="carousel-item" data-bs-interval="2000">
+          <div class="container image">
+            <img
+              src="https://tesla-cdn.thron.com/delivery/public/image/tesla/538ac149-d103-4834-9d38-641d8ae447ef/bvlatuR/std/4096x2560/Homepage-Model-S-Desktop-LHD"
+              class="d-block w-100"
+              alt="..."
+            />
+          </div>
+          <div class="carousel-caption d-flex d-md-block">
+            <div class="container saying">
+              <h5>Model S</h5>
+              <p>Online for <a href="#">Touchless Delivery</a></p>
+              <div class="container order-button d-flex justify-content-center">
+                <button type="button" class="btn btn-primary btn-sm order order-buttons">Order Now</button>
+                <button type="button" class="btn btn-secondary btn-sm order order-buttons">Details</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <button
+      class="carousel-control-prev"
+      type="button"
+      data-bs-target="#carouselExampleDark"
+      data-bs-slide="prev"
+      >
+      <span class="carousel-control-prev-icon"></span>
+      <span class="visually-hidden type="button"">Previous</span>
+    </button>
+    <button
+    class="carousel-control-next"
+    type="button"
+    data-bs-target="#carouselExampleDark"
+    data-bs-slide="next"
+    >
+    <span class="carousel-control-next-icon"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+</div>
+    </div>
+
+    <!-- Middle -->
+    <div class="text-center mt-5 mb-1">
+      <h4>Why Tesla?</h4>
+      <p>Explore the Benefits</p>
+      <button type="button" class="btn btn-dark btn-md">Explore</button>
+    </div>
+
+    <!-- Info -->
+    <div class="container-sm myinfo pt-5 pb-5 d-flex justify-content-center">
+      <div class="card" style="width: 18rem;">
+        <img src="jin.JPEG" class="card-img-top img-responsive img-fluid" alt="...">
+        <div class="card-body row">
+          <h5 class="card-title col-sm-12">Jin Hun Choi 최진헌</h5>
+          <p class="card-text">Hi 누나! I have tried so many coding tutorials and yours have been the best so far! Thank you so much for the work that you put in to this. I will for sure be taking Javascript course.
+            I am 27 years old and currently live in Dallas, TX. I wish to become a front-end developer first and see where the road takes me!
+          </p>
+          <a href="mailto: jinhunchoi94@gmali.com" class="btn btn-primary">Shoot me an email</a>
+        </div>
+      </div>
+    </div>
+      
+    <!-- Footer -->
+    <footer>
+      <div class="container">
+        <div class="pb-5 pt-5 first-line">Tesla</div>
+        <div>
+          <div class="row pb-5 pt-5 second-line">
+            <div class="col">United States</div>
+            <div class="col"><a href="#">Privacy & Legal</a></div>
+            <div class="col"><a href="#">Contact Us</a></div>
+            <div class="col"><a href="#">News</a></div>
+            <div class="col"><a href="#">Locations</a></div>
+          </div>
+        </div>
+        <div class="third-line pt-5 pb-5 text-center">
+          Ship to: United States
+        </div>
+      </div>
+    </footer>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.min.js"
+      integrity="sha384-kjU+l4N0Yf4ZOJErLsIcvOU2qSb74wXpOhqTvwVx3OElZRweTnQ6d31fXEoRD1Jy"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

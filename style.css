@@ -1,0 +1,97 @@
+/* #25a75d
+#ffff
+#bbc19f
+*/
+
+.nav-link:hover {
+  font-weight: 500;
+  color: black;
+}
+.dropdown-toggle {
+  background-color: black;
+}
+.navbar-expand-lg {
+  background-color: #ffff;
+}
+
+/* Body */
+.carousel-control-next-icon .visually-visible {
+  background-color: black;
+  color: black;
+}
+.saying a {
+  color: black;
+}
+.saying h5 {
+  font-size: 40px;
+  font-weight: 700;
+  color: white;
+}
+/* Media */
+@media screen and (max-width: 48rem) {
+  .carousel-caption {
+    display: flex;
+    justify-content: center;
+  }
+  .saying {
+    align-items: flex-start;
+    flex-direction: column;
+  }
+  .saying p {
+    font-size: 8px;
+  }
+  .saying h5 {
+    font-size: 15px;
+    font-weight: 600;
+  }
+  .order {
+    display: flex;
+    justify-content: center;
+    padding: 5px;
+    flex-wrap: wrap;
+    font-size: 15px;
+  }
+  .order-buttons {
+    font-size: 8px;
+    padding: 0 10px;
+    margin: 5px;
+  }
+  .text-center {
+    margin-top: 3rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+  }
+  .text-center h4 {
+    font-size: 20px;
+  }
+  .text-center p {
+    font-size: 10px;
+  }
+}
+/*  */
+.carousel-item img {
+  justify-content: center;
+
+  max-width: 80%;
+}
+
+.image {
+  display: flex;
+  justify-content: center;
+}
+.carousel-inner {
+  display: flex;
+}
+footer {
+  background-color: black;
+  color: white;
+}
+footer a {
+  color: white;
+  text-decoration: none;
+}
+footer a:hover {
+  color: white;
+  font-weight: 700;
+  text-decoration: none;
+}
